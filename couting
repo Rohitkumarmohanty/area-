@@ -1,0 +1,8 @@
+a_str="mississippi"
+d={}
+for i in a_str:
+if i in d:
+d[i]+=1
+else
+d[i]=1
+print(str(d))
