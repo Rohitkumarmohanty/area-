@@ -1,0 +1,20 @@
+int p=50                  #marks of physics
+int c=80                  #marks of chemistry
+int b=72                  #marks of biology
+int e=68                  #marks of english
+int h=57                  #marks of history
+int l=88                  #marks of 2nd language
+float avg=(p+c+b+e+h+l)/6
+print("average is:%f",%avg)
+if(90<=avg)
+print("A grade is obtained")
+elif(90>avg>=80)
+print("B grade is obtained")
+elif(80>avg>=70)
+print("C grade is obtained")
+elif(70>avg>=60)
+print("D grade is obtained")
+elif(60>avg>=50)
+print("E grade is obtained")
+else
+print("fail")
