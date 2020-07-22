@@ -3,7 +3,7 @@ int c=80                  #marks of chemistry
 int b=72                  #marks of biology
 int e=68                  #marks of english
 int h=57                  #marks of history
-int l=88                  #marks of 2nd language
+int s=88                  #marks of 2nd language
 float avg=(p+c+b+e+h+l)/6
 print("average is:%f",%avg)
 if(90<=avg)
